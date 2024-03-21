@@ -1,6 +1,5 @@
 pandas
-plotly
 streamlit
-pandas-datareader
 numpy
 scikit-learn
+pickle
