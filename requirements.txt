@@ -5,3 +5,5 @@ yfinance
 pandas-datareader
 prophet
 sklearn
+numpy
+scikit-learn
