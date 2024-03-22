@@ -21,9 +21,9 @@ fuel = st.selectbox('Fuel type', cars_data['fuel'].unique())
 seller_type = st.selectbox('Seller  type', cars_data['seller_type'].unique())
 transmission = st.selectbox('Transmission type', cars_data['transmission'].unique())
 owner = st.selectbox('Seller  type', cars_data['owner'].unique())
-mileage = st.slider('Car Mileage', 10,40)
+mileage = st.slider('Car Mileage', 8,40)
 engine = st.slider('Engine CC', 700,5000)
-max_power = st.slider('Max Power', 10,200)
+max_power = st.slider('Max Power', 100,200)
 seats = st.slider('No of Seats', 5,10)
 
 
