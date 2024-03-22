@@ -23,7 +23,7 @@ transmission = st.selectbox('Transmission type', cars_data['transmission'].uniqu
 owner = st.selectbox('Seller  type', cars_data['owner'].unique())
 mileage = st.slider('Car Mileage', 8,40)
 engine = st.slider('Engine CC', 700,5000)
-max_power = st.slider('Max Power', 120,250)
+max_power = st.slider('Max Power', 10,200)
 seats = st.slider('No of Seats', 5,10)
 
 
