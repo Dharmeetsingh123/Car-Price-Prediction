@@ -47,8 +47,5 @@ if st.button("Predict"):
                           ,inplace=True)
 
     car_price = model.predict(input_data_model)
-
-    st.subheader('Car Price is going to be : '+ str(round(car_price[0],2)))
-    car_price = model.predict(input_data_model)
-    st.subheader('Predicted Car Price is')
+    st.subheader('Car Price is going to be')
     st.markdown(f'<p style="color:#ff6961; font-size: 35px;">₹{car_price[0]:,.2f}</p>', unsafe_allow_html=True)
